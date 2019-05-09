@@ -43,15 +43,15 @@ class StashClient(object):
 
     # the core api path will be used as an overridable default
     core_api_name = 'api'
-    core_api_version = '1.0'
+    core_api_version = '2.0'
     core_api_path = '{0}/{1}'.format(core_api_name, core_api_version)
 
     branches_api_name = 'branch-utils'
-    branches_api_version = '1.0'
+    branches_api_version = '2.0'
     branches_api_path = '{0}/{1}'.format(branches_api_name, branches_api_version)
 
     git_api_name = 'git'
-    git_api_version = '1.0'
+    git_api_version = '2.0'
     git_api_path = '{0}/{1}'.format(git_api_name, git_api_version)
 
     sync_api_name = 'sync'
